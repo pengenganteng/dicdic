@@ -2,7 +2,7 @@
 
 $ pkg install python python2
 
-$ pip install -r pancibocor.txt
+$ pip2 install -r pancibocor.txt
 
 $ cd dicdic
 
